@@ -1,0 +1,2208 @@
+/*
+.body
+{
+    height: 1000px;
+   background-color: chartreuse;
+
+}
+*/
+.nav
+{
+   display : flex;
+   height: 90px;
+   border-bottom: 1px solid black;
+   background-color: white;
+   position: fixed;
+   top: 0px;
+   z-index: 5;
+
+}
+
+#insta
+{
+    font-family: 'Lobster', cursive;
+}
+
+input
+{
+  /* border: 2px solid black;*/
+  /* border-radius: 4px;*/
+    margin-top: 40px;
+    text-align: center;
+}
+.nav1
+{
+    height: 25px;
+    width: 25%;
+    margin-right: 8%;
+    padding-left: 5px;
+    display: flex;
+    
+}
+.nav2
+{
+   transform: scale(1.3);
+    width: 100%;
+    position: relative;
+    top: 38px;
+}
+
+.blank
+{
+   /* margin: auto;*/
+
+    display: flex;
+    height:100px;
+   
+   margin: 0% 17%;
+   overflow: hidden;
+   
+    /*background-color: brown;*/
+    border: 1px solid black;
+
+    position: relative;
+    top: 115px;
+
+}
+
+.Cirac
+{
+    margin: auto;
+    display: flex;
+    
+    grid-gap: 76px;
+
+    /*
+    position: absolute;
+    top: 20px;
+    left: 40px;*/
+}
+
+.cir
+{
+    color: rgb(27,14,14);
+    transform: scale(4);
+    position: relative;
+    top: 23px;
+}
+
+.ac
+{
+    color: rgb(183,9,9);
+    transform: scale(3);
+    position: relative;
+    bottom: 7px;
+   
+}
+
+
+.allPic
+{
+    margin: 20px 17%;
+    border: 1px solid gray;
+    position: relative;
+    top: 140px;
+   
+}
+
+
+
+.picnavitm
+{
+    padding: 25px;
+    /*border: 2px solid gold;*/
+    display: flex;
+    align-items: center;
+   
+}
+
+.cirnav
+{
+   
+    color: rgb(27,14,14);
+    transform: scale(2.5);
+    position: relative;
+    top: 5px;
+}
+
+.cinav
+{
+    color: rgb(183,9,9);
+    transform: scale(2.2);
+    position: relative;
+    top: 4px;
+    right: 24px;
+}
+
+.name
+{
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+}
+
+.dot
+{
+    position: absolute;
+    right: 20px;
+    transform: scale(1.6);
+}
+.card_img
+{
+    height: 550px;
+}
+
+img
+{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*height: 150%;*/
+    z-index: -1;
+}
+
+.bott
+{   
+    padding: 10px 0px;
+    /*border: 2px solid gold;*/
+      display: flex;
+     position: relative;
+     left: 10px;
+}
+
+
+
+.fav
+{
+    position:relative;
+    transform: scale(1.4);
+    padding-right: 15px;
+}
+
+.comm
+{
+    position:relative;
+    transform: scale(1.4);
+    padding-right: 15px;
+}
+
+.near
+{
+    position:relative;
+    transform: scale(1.4);
+}
+
+.sav
+{
+    position: absolute;
+    right: 20px;
+   transform: scale(1.4);
+}
+
+.LIKE
+{
+    /*border: 1px solid blue*/
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+    
+}
+
+
+.Totalcomm
+{
+    /*border: 1px solid rgb(183,9,9);*/
+    width: 90%;
+
+    /*shift the word in next line that overflow the border*/
+   overflow-wrap: break-word;
+   position: relative;
+   left: 10px;
+   
+}
+
+.commName
+{
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+
+.commpost
+{
+    /*border: 4px solid purple;*/
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+   
+}
+
+.imoge
+{
+
+    transform: scale(1.5);
+    position: relative;
+    left: 15px;
+    z-index: 2;
+    
+}
+.incomm
+{
+    border: none;
+    outline: none;
+    position:relative;
+    bottom: 23px;
+}
+
+.postcomm
+{
+    position: absolute;
+    right: 40px;
+    font-weight: bold;
+     color: rgb(52, 52, 200);
+}
+
+
+
+.action1
+{
+  position: fixed;
+   top: 0%;
+   left: 0%;
+  z-index: 6;
+  
+}
+
+.action0
+{
+    background-color: slategrey;
+    width: 600px;
+   padding: 100%;
+   opacity: 0.7;
+}
+
+.action0:hover
+{
+    cursor: pointer;
+    
+}
+
+.action
+{
+   /*border-style: none;*/
+
+   position: relative;
+   right: 10px;
+   width: 40%;
+   padding:10px;
+   cursor: pointer;
+   
+}
+
+#Rp
+{
+   color: red;
+   font-weight: bold;
+   font-size: 140%;
+   background-color: white;
+   border-style: none;
+   outline-style: none;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   padding: 2% 0%;
+
+   position :fixed;
+   left: 30%;
+   top: 22%;
+   z-index: 10;
+}
+
+#Uf
+{
+    color: red;
+    font-weight: bold;
+    font-size: 140%;
+    background-color: white;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    outline-style: none;
+    padding: 2% 0%;
+
+    position :fixed;
+   left: 30%;
+   top: 36%;
+   z-index: 20;
+}
+
+#Gp
+{
+    font-size: 100%;
+    background-color: white;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    outline-style: none;
+    padding: 2% 0%;
+
+    position :fixed;
+   left: 30%;
+   top: 49%;
+   z-index: 30;
+}
+
+#Cn
+{
+    font-size: 100%;
+    background-color: white;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    outline-style: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 2% 0%;
+
+    position :fixed;
+   left: 30%;
+   top: 62%;
+   z-index: 40;
+}
+
+.thif
+{
+    position: fixed;
+    top: 91px;
+    left: 19.5px;
+    width: 100%;
+    height: 16.5px;
+    /*border: 2px solid green; */
+    background-color: white;
+    color: white;
+    z-index: 5;  
+}
+
+
+.msgnav
+{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:107.2px;
+    border :1px solid black;
+    width: 371px;
+    height: 62px;
+    left: 19.4px;
+    background-color: white;
+    z-index: 100;
+    
+}
+
+
+.idname
+{
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  left: 15%;
+   bottom : 2%;
+}
+
+.newmsg
+{
+   background-color: white;
+   color: black;
+
+    position: absolute;
+    top: 30%;
+    right :15%;
+    transform: scale(1.6);
+   
+}
+
+.creatmsg
+{
+    background-color: white;
+    color: black;
+
+    position: absolute;
+    top: 12%;
+    right :12%;
+    transform: scale(1.1);
+   
+}
+
+.allmsg
+{
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    top: 154px;
+    width: 371px;
+    
+   /* border: 1px solid red;
+    /*height: 626.2%;*/
+    left: 19.4px;
+    z-index: 4;
+    
+}
+
+.allmsg:hover
+{
+   cursor: pointer;
+   
+}
+
+.frnd
+{
+    display: flex;
+    height: 70px;
+    
+}
+
+.frndcir
+{
+    color: black;
+    transform: scale(3);
+    position: relative;
+    top: 25px;
+    left: 27px;
+    opacity: 0.7;
+}
+
+.frndac
+{
+    color: red;
+    transform: scale(2.3);
+    position: relative;
+    top: 25px;
+    left: 2.7px;
+}
+
+.frndname
+{
+    position: relative;
+     font-size: 145%;
+    width: 170%;
+    left: 35px;
+    bottom: 4px;
+    
+}
+
+.frndstatus
+{
+    position: relative;
+     font-size: 100%;
+   bottom: 30px;
+    left: 35px;
+    width: 170%;
+
+}
+
+.inipage
+{
+    position: fixed;
+   
+    top: 107.5px;
+    /*left: 35.9%;*/
+    left: 391px;
+    border: 1px solid black;
+    border-bottom: none;;
+    height: 80%;
+    /*width: 60%;*/
+    width: 567.5px;
+    background-color: white;
+    z-index: 3;
+    
+}
+
+.inpagecir
+{
+    position: absolute;
+    right: 50%;
+    top: 20%;
+    transform: scale(6);
+    
+}
+
+.inpagenear
+{
+    position: absolute;
+    right: 51%;
+    top: 21%;
+    transform: scale(3);
+}
+
+.inpagepara
+{
+    color: black;
+    font-size: 145%;
+    position: absolute;
+    right: 40%;
+    top: 37%;
+    opacity: 0.8;
+}
+
+.inpagemsg
+{
+    font-weight: bold;
+    color: black;
+    font-size: 125%;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 48%;
+}
+
+.inpagesub
+{
+    position: absolute;
+    right: 40%;
+    top: 65%;
+    padding: 1.5% 2%;
+    border-radius: 8px;
+    background-color: blue;
+    border: none;
+    color: white;
+     font-weight: bold;
+}
+
+
+.convenav
+{
+    display: flex;
+    width: 566.5px;
+    height: 62px;
+    border: 1px solid black;
+    position: fixed;
+    top:107px;
+    left: 392px;
+    justify-content: center;
+    background-color: white;
+    z-index: 100;
+}
+
+.frndconvercir
+{
+    color: black;
+    transform: scale(2);
+    position: absolute;
+    top: 19.5px;
+    left: 57px;
+}
+
+.frndconverac
+{
+    color: red;
+    transform: scale(1.5);
+    position: absolute;
+    top: 19.5px;
+    left: 57px;
+}
+
+.frndconvername
+{
+    position: relative;
+    font-size: 145%;
+    right: 75%;
+    bottom: 20%;
+}
+
+.frndconverstatus
+{
+    position: relative;
+    font-size: 100%;
+    right: 75%;
+    bottom: 60%;
+}
+
+.converoutline
+{
+    position: absolute;
+    top: 19.5px;
+    right: 100px;
+   transform: scale(2);
+   color: black;
+   
+}
+
+
+.conversation
+{
+    position: absolute;
+    top: 169px;
+    left: 392.5px;
+    width: 565.5px;
+    /*border: 1px solid red;*/
+    /*height: 143px;*/
+  /* background-color: white;*/
+    /*border-top: none;
+    border-bottom: none;*/
+    z-index: 4;
+}
+
+.conversation2
+{
+    position: fixed;
+    /*border:1px solid orchid;*/
+    width: 564.5px;
+    height: 860px;
+    background-color: white;
+    color: wheat;
+}
+
+.convedownnavthif
+{
+    
+    width: 58%;
+    height: 50%;
+  
+    position: fixed;
+   /* bottom: 28px;*/
+    top: 80%;
+    left: 393px;
+   
+    background-color: white;
+    border: none;
+
+    z-index: 5;
+}
+
+.convedownnav
+{
+    display: flex;
+    width: 53%;
+    height: 11%;
+  
+    position: fixed;
+    bottom: 28px;
+    top: 85%;
+    left: 419px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 19px;
+    z-index: 100;
+    border: 0.5px solid rgb(223, 214, 214);
+    
+    outline-style: none;
+}
+.convedownnavimog
+{
+    position: absolute;
+    left: 8px;
+    top: 27%;
+    transform: scale(1.6);
+   
+   z-index: 1001;
+}
+
+.convedownnavinput
+{
+    position: absolute;
+    left: 38px;
+    bottom: 25%;
+    width : 50%;
+    height: 40%;
+    font-size: 20px;
+    border-style: none;
+    outline-style: none;
+    z-index: 1000;
+}
+
+.convedownnavlove
+{
+    position: absolute;
+    right: 77px;
+    top: 27%;
+    transform: scale(1.6);
+   z-index: 1001;   
+}
+
+.Mess
+{
+    border-bottom: 1px solid green;
+    background-color: white;
+    
+   position: relative;
+    left: 0.5px;
+    top: 15px;
+
+}
+
+.mesgwidth
+{     
+    position: relative;
+    margin :0.1px 0px;
+    width: 50%;
+    border:1px solid blue;
+    padding: 0px;
+    
+    border: none;
+}
+
+.mesgwidthsender
+{
+    position: relative;
+    left:258.4px;
+    bottom: 8px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.mesgwidthreceiver
+{
+    position: relative;
+    right: 1.3px;
+    bottom: 35px;
+    
+}
+
+
+.msgsender
+{
+
+  background-color: rgb(195, 191, 144);
+  position: relative;
+  top: 10px;
+  margin: 3px 0px;
+  padding: 10px;
+  border-radius: 19px;
+   display: inline-block;
+  
+ /* position: absolute;
+  right: 5px;*/
+}
+
+.picmsgsender
+{
+    width: 120px;
+    height: 70px;
+    /*border: 1px solid gold;*/
+    /*display: inline-block;*/
+    position: relative;
+    right: 27%;
+}
+.picmsgsender2
+{
+    width: 190px;
+    height: 90px;
+    z-index: 1;
+}
+
+
+.msgsreceiver 
+{
+ background-color:rgb(233, 227, 227);
+ /* border: 0.002px solid black;*/
+  position: relative;
+  left: 48px;
+  top: 35px;
+   margin: 3px 0px;
+  padding: 10px;
+  border-radius: 19px;
+
+  display: inline-block;
+
+}
+
+.picmsgreceiver
+{
+    width: 190px;
+    height: 40px;
+    /*border: 1px solid green;*/
+    display: inline-block;
+}
+
+.picmsgreceiver2
+{
+    position:relative;
+    top: 25px;
+    left:48px;
+    width: 190px;
+    height: 90px;
+    z-index: 1;
+}
+
+/*css on element get after clicking on profile tag*/
+.Manyoption
+{
+    /*border: 2px solid gold;*/
+   
+    position: fixed;
+    top: 80px;
+    right: 25px;
+    z-index: 102;
+   width: 250px;
+  
+}
+
+.showoption
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.showingclick
+{
+    transform: rotate(45deg);
+    position: absolute;
+    right: 25%;
+    bottom: 188px;
+    background-color: rgb(238, 225, 225);
+    color: rgb(238, 225, 225);
+   
+}
+
+.optionsname
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.options
+{
+    height: 40px;
+    
+    border: none;
+    outline: none;
+    background-color: rgb(238, 225, 225);
+}
+
+.option1
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.logoutoption
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.option44
+{
+    border-bottom: 1px solid black;
+    
+}
+
+.optionname
+{
+    position: relative;
+    right: 60px;
+    font-size: 15px;
+}
+
+/*Css for profile option after clicking on account option*/
+.Profileoption
+{
+    position: relative;
+    right: 75px;
+}
+
+/*Css for save option after clicking on account option*/
+.Savedoption
+{
+    position: relative;
+    right: 75px;
+}
+
+
+/*Css for setting option after clicking on account option*/
+.optionname3
+{
+    position: relative;
+    right: 55px;
+    font-size: 15px;   
+}
+
+.settingsoptionafterclickonac
+{
+    position: relative;
+    right: 68px;
+}
+
+.optionname4
+{
+    position: relative;
+    right: 28px;
+    font-size: 15px;   
+}
+
+.SwitchAcoption
+{
+    position: relative;
+    right: 40px;
+    
+}
+
+.LogOutoption
+{
+    position: relative;
+    right: 78px;
+    font-size: 15px; 
+   /* border: 1px solid black;
+    border-bottom-left-radius: 10px;*/
+}
+
+/*css for my profile content*/
+.profilecontent
+{
+    
+    /*border: 0.2px solid blueviolet;*/
+    z-index: 3;
+    position: absolute;
+    top: 90px;
+     width: 98%;
+     /*height: 260%;*/
+    
+   background-color: white;
+   
+}
+
+.profileinstaidnamesetting
+{
+    display: flex;
+    
+}
+
+.profile
+{
+    display: flex;
+
+}
+
+.profilecircle
+{
+    color: black;
+    transform: scale(7);
+    position: relative;
+    top: 94px;
+    left: 105px;
+    
+}
+
+.profilepic
+{
+    color: red;
+    
+    transform: scale(6);
+    position: relative;
+    top: 94px;
+    left: 81px;   
+}
+
+.instaidnamesetting
+{
+    position: relative;
+    top: 33px;
+    left: 220px;  
+}
+
+.Myinstaidnameandedit
+{
+    display: flex;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.instaidnameandedit
+{
+    margin: 0px 15px;
+}
+
+.Myinstaidname
+{
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.editprofile
+{
+    font-size: 21px;
+}
+
+.profilesetting
+{
+    transform: scale(1.6);
+}
+
+.aboutProfile
+{
+    display: flex;
+    margin: auto;
+    position:relative;
+    right: 12px;
+    padding: 10px 0px;
+}
+
+.aboutProf
+{
+    margin: 0px 25px;
+    font-size: 20px;
+}
+
+.instanametagline
+{
+    padding: 10px 0px;
+}
+
+.instaname
+{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 13px;
+}
+
+.instatagline
+{
+     display: flex;
+    /*border: 1px solid rgb(183,9,9);*/
+      width: 500px;
+      position: relative;
+      left: 12px;
+}
+
+.storysave
+{
+    display: flex;
+    
+    position: relative;
+    top: 60px;
+    /*width: 100%;
+    /*border: 1px solid red;*/
+
+    /*importiant step*/
+    display: grid;
+    grid-template-columns: repeat(6, 155px);
+    /*here use grid-gap for margin between two grids*/
+    grid-gap: 40px 0px;
+}
+
+.storysaveaddress
+{
+    margin: 0px 15px;
+    
+}
+
+.storysavebyme
+{
+    display: flex;
+    position: relative;
+    left: 20px;
+}
+
+.storysavebymecir
+{
+    color: black;
+   transform: scale(4);
+   margin: 15px 13px;
+   position: relative;
+   left: 25px;
+}
+
+.storysavebymeacc
+{
+    color:rgb(183,9,9);
+    transform: scale(3.5);
+    margin: 15px 13px;
+    position: relative;  
+    right: 25px;
+}
+
+.storysavename
+{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 18px;
+    left: 25px;
+
+    
+    /*border: 1px solid red;*/
+    display: flex;
+    width: 90px;
+
+    /*when we want that hide all element that overflow the border*/
+    /*overflow: hidden;*/
+  
+    /*when we want that text will not wrap(i.e no line change) where
+    the text overflow the width while there is space in text then, use it*/
+    /*white-space: nowrap;*/
+
+    /****VERY VERY IMPORTANT TO BREAK THE PARAGRAPH A/C TO GIVEN WIDTH****/
+    /*i don't know that there is any space present or not, in a paragraph but
+    i want to break paragraph accourding to the width i have seted for paragraph
+    then i use it and it works everywhere */
+    word-break: break-all;
+    
+}
+
+.profilemidnaveline
+{
+    position: relative;
+    top: 110.5px;
+}
+
+/*very important step*/
+.profilemidnave
+{
+    width: 840px;
+    display: flex;
+    /*it means all element inside this class set to center horizontally
+    to this class container*/
+    justify-content: center;
+    
+}
+
+/*very important step*/
+.instamidnavecontent
+{
+   
+    position: relative;
+    top: 100px;
+     display: flex;
+     /*it means all element of this class  set to center vertically
+     with respect to it's parent container*/
+     align-items: center;
+
+     margin: 0px 25px;
+    
+     /*border-bottom: 2px solid black;*/
+}
+
+.myallconetentofinstamidnav
+{
+    width: 840px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+.topborderossymbolofpostpics
+{
+    width: 70px;
+    border: none;
+    border-top: 2px solid black;
+    position: relative;
+    bottom: 40px;
+    left: 180px;
+}
+
+.MYALLPOSTEDPOSTONINSTA
+{
+    border: 15px solid white;
+   
+}
+
+
+.Takemypostedpicpropspostedpic
+{
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+    /*border: 4px solid purple;*/
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+  
+}
+
+
+.topborderossymbolofsavedpics
+{
+    width: 70px;
+    border: none;
+    border-top: 2px solid black;
+    position: relative;
+    bottom: 40px;
+    left: 417px;
+}
+
+.MYALLSAVEDPOSTONINSTA
+{
+    border: 15px solid white;
+   
+}
+
+
+.Takemysavedpicpropssavedpic
+{
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+    /*border: 4px solid purple;*/
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+  
+}
+
+.topborderossymboloftaggedpics
+{
+    width: 70px;
+    border: none;
+    border-top: 2px solid black;
+    position: relative;
+    bottom: 40px;
+    left: 543px;
+}
+
+.MYALLTAGGEDPOSTONINSTA
+{
+    border: 15px solid white;
+     
+}
+
+
+.Takemytaggedpicpropstaggedpic
+{
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+    /*border: 4px solid purple;*/
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    
+}
+
+/*CSS for setting from profile*/
+.Profilesettingcontennt
+{
+    width: 400px;
+    /*border: 1px solid peru;*/
+    position: fixed;
+    margin: 0% 30%;
+    
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Profilesettingitems
+{
+    height: 45px;
+    background-color: white ;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(202, 197, 197) ;
+}
+
+.Profilesettingitems:hover
+{
+    cursor: pointer;
+}
+
+#Profilesettingitems1
+{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.canclesettingonclickingCancle
+{
+    font-size: 15px;
+    width: 400px;
+    height: 45px;
+
+    background-color: white;
+
+    position: fixed;
+    top: 367px;
+    margin: 0% 30%;
+
+    border: none;
+    outline: none;
+    border-top: 1px solid rgb(202, 197, 197) ;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    z-index: 6;
+}
+
+.canclesettingsfromprofile
+{
+    /*border: 1px solid greenyellow;*/
+    height: 100%;
+    width: 119%;
+    position: fixed;
+     bottom: 5px;
+    right: 0.1px;
+    background-color: slategrey;
+    opacity: 0.3;
+    z-index: 5;
+}
+
+
+/*Css for switching account option*/
+
+.cancleswitchingprofile
+{
+    height: 100%;
+    width: 119%;
+    position: fixed;
+     bottom: 5px;
+    right: 0.1px;
+    background-color: slategrey;
+    opacity: 0.3;
+    z-index: 103;
+}
+
+
+.switchaccountpage
+{
+    font-size: 15px;
+    width: 400px;
+    height: 225px;
+
+    background-color: white;
+
+    position: fixed;
+    top: 100px;
+    margin: 0% 29%;
+
+    border-radius: 12px;
+
+    z-index: 103;
+}
+
+.switchaccountpage:hover
+{
+    cursor: pointer;
+}
+
+
+
+.cancleswitchaccount
+{
+    display: flex;
+    /*horizontally center all element of this class element w.r.t this class container*/
+    justify-content: center;
+     /*vertically center all element of this class element w.r.t this class container*/
+    align-items: center;
+
+    position:absolute;
+    top: 1px;
+
+    width: 400px;
+    height: 45px;
+    background-color: white ;
+    font-size: 18px;
+    font-weight: bold;
+
+    border:none;
+    outline: none;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: 1px solid rgb(202, 197, 197) ;
+}
+
+.clearsymbol
+{
+   position: relative;
+   left: 25%;
+   transform: scale(1.5);
+}
+
+.instaidelement
+{
+    position: absolute;
+    top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.switchaccountac
+{
+    color: red;
+    transform: scale(2.5);
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+.switchaccountcir
+{
+    color: black;
+    transform: scale(3);
+    position: relative;
+    top: 25px;
+    left: 6.6px;
+}
+
+.switchaccountname
+{
+    font-size: 18px;
+   font-weight: bold;
+   position: relative;
+   top: 25px;
+   left: 40px;
+}
+
+.switchaccountCheck
+{
+    transform: scale(1.3);
+    color: blue;
+    position: relative;
+    top: 25px;
+    left: 70%;
+}
+
+
+.switchaccountExisting
+{
+    position:absolute;
+    bottom: 1px;
+
+    width: 400px;
+    height: 45px;
+    color: blue;
+    background-color: white ;
+    font-size: 15px;
+    font-weight: bold;
+
+    border:none;
+    outline: none;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top: 1px solid rgb(202, 197, 197) ;
+    opacity: 0.8;
+}
+
+
+
+/*CSS for 'Edit Profile' from profile OR 'settings' from the onclick option*/
+
+.EDITPROFILEfromProfile
+{
+    color: white;
+    border: none;
+    width: 100%;
+    /*height: 1615px;*/
+
+}
+
+.EDITPROFILEfromProfilecontainer
+{
+    position: relative;
+    bottom: 90px;
+}
+
+.settingscontent
+{
+    margin: 0px 3%;
+    display: flex;
+    position: absolute;
+    top: 89.5px;
+    width: 900px;
+    Height: 500px;
+   background-color: white;
+   border: 0.2px solid rgb(202, 197, 197);;
+   z-index: 4;
+}
+
+.settingsoptionss
+{
+    border: 1px solid rgb(202, 197, 197);
+   width: 25%;
+}
+
+.settingsoption
+{
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    margin: 28px 0px;
+   
+}
+
+.settingsoptionscontent
+{
+    border: 1px solid  rgb(202, 197, 197);
+  
+   /* height: 300px;*/
+    width: 75%;
+
+}
+
+
+/*CSS for 1st option after clicking on 'Edit profile' from profile OR setting fron onclick account*/
+
+.Editprofilecontent
+{   
+    background: white;
+    height: 900px;
+    position: relative;
+    bottom: 70px;
+}
+
+.leftborderofEditprofileopton
+{
+    border: none;
+    border-left: 4px solid black;
+    width: 1px;
+    height: 35px;
+    position: relative;
+    top: 8px;
+    right: 229px;
+}
+
+.formstart1
+{
+    display: flex;
+}
+
+.samewidth
+{
+    width: 270px;
+    position: relative;
+    top: 34px;
+    left: 125px;
+  
+    
+}
+
+.formstartcir
+{
+   color: black;
+   transform: scale(2);
+   position: relative;
+   top: 40px;
+   left: 110px;
+}
+
+.formstartac
+{
+    color: red;
+    transform: scale(1.8);
+    position: relative;
+    top: 40px;
+    left: 86px;
+}
+
+.formstartname
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.formstartchangepic
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0, 0, 230, 0.76);
+    padding: 5px 0px;
+   
+}
+
+.setallsame
+{   
+    position: relative;
+    left: 85px;
+    top: 72px;
+    display: flex;
+    width: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.setallwidthsame
+{
+    font-size: 15px;
+    font-weight: bolder;
+
+    height: 40px;
+    width: 270px;
+    margin: 10px 0px;
+    background: white;
+
+    /*very very important point*/
+    /*here if i don't set display as flex then relative position of all input tag
+     is relative position w.r.t it's initial position But if i set display as flex
+     then relative position of all input tag is relative position w.r.t
+     it's parent container*/
+    display: flex;
+    position: relative;
+    left: 178px;
+    top: 25px;
+    border: 1px solid rgb(202, 197, 197) ;
+}
+
+.mybio
+{
+
+    height: 100px;
+    margin-bottom: 170px;
+    
+}
+
+#setbiowidth
+{
+    height: 100px;
+    resize: none;
+}
+
+.myemailaddress
+{
+    position: relative;
+    bottom: 120px;
+}
+
+.myphonenumber
+{
+    position: relative;
+    bottom: 120px;
+}
+
+.mygender
+{
+
+    position: relative;
+    bottom: 120px;
+   
+}
+
+.GENDER
+{
+    position: relative;
+    top: 50px;
+    left: 85px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.choosegender
+{ 
+    position: relative;
+    left: 178px;
+   
+    border: 1px solid rgb(202, 197, 197) ;
+    width: 270px;
+    height: 40px; 
+}
+
+.clickgender
+{
+   position: relative;
+   bottom: 26px;
+   left: 10px;
+   
+}
+
+.gendername
+{
+    position: relative;
+    bottom: 28px;
+    left: 10px;
+}
+
+
+.accountsuggestions
+{
+   
+    position:relative;
+    bottom: 180px;
+}
+
+.accountsuggestionsallow
+{
+    position: relative;
+    left: 196px;
+    transform: scale(1.5);
+}
+
+.mightwanttofollow
+{
+  position: relative;
+  left: 230px;
+   bottom: 37px;
+   display: flex;
+   width: 270px;
+   font-size: 15px;
+   font-weight: bolder;
+}
+
+.accountdisable
+{
+   color: blue;
+   font-weight: bold;
+
+    position: relative;
+    bottom: 100px;
+    left: 300px;
+}
+
+.mysubmission
+{
+    position: relative;
+    bottom: 155px;
+}
+
+.submitform
+{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 8px;
+    color: white;
+    background-color: rgb(94, 105, 255);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+
+    display: flex;
+    position: relative;
+    left: 178px;
+    bottom: 75px;   
+}
+
+/*CSS for 2nd option after clicking on 'Edit profile' from profile OR setting fron onclick account*/
+
+.leftborderofChangepassopton
+{
+    
+    border: none;
+    border-left: 4px solid black;
+    width: 1px;
+    height: 40px;
+    position: relative;
+    top: 55px;
+    right: 229px;
+}
+
+.Changepasscontent
+{
+   /* border: 2px solid red;*/
+    width: 520px;
+    position: relative;
+    bottom: 70px;
+}
+
+.formstart2
+{
+    display: flex;
+}
+
+.formstartcir2
+{
+    color: black;
+    transform: scale(2);
+    position: relative;
+    top: 40px;
+    left: 110px;
+}
+
+.formstartac2
+{
+    color: red;
+    transform: scale(1.8);
+    position: relative;
+    top: 40px;
+    left: 86px;
+}
+
+.formstartname2
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 37px;
+    left: 128px
+    
+}
+
+.passWord
+{
+    font-size: 16px;
+    font-weight: bold;
+    width: 350px;
+    height: 40px;
+    border: 1px solid rgb(202, 197, 197) ;
+    border-radius: 10px;
+    outline: none;
+    margin:15px 0px;
+     position:relative;
+     top: 25px;
+     left: 176px;
+}
+
+#idpasswordname
+{
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    width: 130px;
+
+    /*border: 1px solid red;*/
+    position: relative;
+    top: 85px;
+    left: 50px;
+}
+
+.passwordname
+{
+    font-size: 18px;
+    font-weight: bolder;
+   display: flex;
+   width: 130px;
+
+   /*border: 1px solid red;*/
+   position:relative;
+     top: 70px;
+     left: 45px;
+}
+
+.submitform2
+{
+    font-size: 17px;
+    font-weight: bolder;
+    padding: 8px 10px;
+    border-radius: 9px;
+    color: white;
+
+    background-color: rgb(94, 105, 255);
+    outline: none;
+    border: none;
+    position: relative;
+    top: 10px;
+    left: 176px;
+}
+
+.Forgotpass
+{
+    font-size: 17px;
+    font-weight: bolder;
+
+    color:  rgb(94, 105, 255);
+    position: relative;
+    top: 35px;
+    left: 195px;
+}
+
+
+/*CSS for 4th option after clicking on 'Edit profile' from profile OR setting fron onclick account*/
+
+.leftborderofEmailsandsmsopton
+{
+    border: none;
+    border-left: 4px solid black;
+    width: 1px;
+    height: 40px;
+    position: relative;
+    top: 158px;
+    right: 229px;
+}
+
+.Emailsandsmscontent
+{
+    /*border: 2px solid red;*/
+    width: 660px;
+    width: 520px;
+    position: relative;
+    bottom: 70px;
+}
+
+.ForEmailsandsmssubsIt
+{
+  font-size: 26px;
+  font-weight: bold;
+   position: relative;
+   left: 50px;
+}
+
+.feedbackopti
+{
+    font-weight: bold;
+}
+
+.feedback
+{
+    font-weight: bold;
+    opacity: 0.7;  
+}
+
+.feedbackoptions
+{
+    margin: 10px 0px;
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+
+}
+
+/*CSS for 5th option after clicking on 'Edit profile' from profile OR setting fron onclick account*/
+
+.leftborderofNOTIFICATIONsopton
+{
+    
+    border: none;
+    border-left: 4px solid black;
+    width: 1px;
+    height: 40px;
+    position: relative;
+    top: 208px;
+    right: 229px;   
+}
+
+.NOTIFICATION
+{
+    background: white;
+    height: 1450px;
+  position: relative;
+  bottom: 70px;
+}
+
+.Notificationoption
+{
+    font-size: 26px;
+    font-weight: bold;
+     position: relative;
+     left: 50px;
+     top: 30px;
+     
+}
+
+.Notificationoptiosss
+{
+     margin: 4px 0px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.Likeoption
+{
+    transform: scale(1.4);
+    margin: 4px 5px;
+}
+
+/* 30px down from last option*/
+.NotificaBorderbottomline1
+{
+    position: relative;
+    top: 70px;
+}
+
+.Notificationfor2
+{
+  position:relative;
+  top: 40px;
+}
+
+.NotificaBorderbottomline2
+{
+    position: relative;
+    top: 115px;
+}
+
+.Notificationfor3
+{
+  position:relative;
+  top: 85px;
+}
+
+.NotificaBorderbottomline3
+{
+    position: relative;
+    top: 155px;
+}
+
+.Notificationfor4
+{
+  position:relative;
+  top: 130px;
+}
+
+.NotificaBorderbottomline4
+{
+    position: relative;
+    top: 205px;
+}
+
+.Notificationfor5
+{
+  position:relative;
+  top: 180px;
+}
+
+.NotificaBorderbottomline5
+{
+    position: relative;
+    top: 255px;
+}
+
+
+.Notificationfor6
+{
+  position:relative;
+  top: 230px;
+}
+
+.NotificaBorderbottomline6
+{
+    position: relative;
+    top: 300px;
+}
+
+
+.Notificationfor7
+{
+  position:relative;
+  top: 280px;
+}
+
+.NotificaBorderbottomline7
+{
+    position: relative;
+    top: 345px;
+}
+
+
+.Notificationfor8
+{
+  position:relative;
+  top: 320px;
+}
+
+.NotificaBorderbottomline8
+{
+    position: relative;
+    top: 385px;
+}
+
+
+.Notificationfor9
+{
+  position:relative;
+  top: 355px;
+}
+
+.NotificaBorderbottomline9
+{
+    position: relative;
+    top: 415px;
+}
+
+
+.Notificationfor10
+{
+  position:relative;
+  top: 390px;
+}
+
+.NotificaBorderbottomline10
+{
+    position: relative;
+    top: 455px;
+}
+
+
+/*CSS for 7th option after clicking on 'Edit profile' from profile OR setting fron onclick account*/
+
+
+.leftborderofPrivacyandSecuritysopton
+{
+    
+    border: none;
+    border-left: 4px solid black;
+    width: 1px;
+    height: 40px;
+    position: relative;
+    top: 310px;
+    right: 229px;      
+}
+
+.PrivacyandSecurity
+{
+    background: white;
+    height: 1300px;
+      position: relative;
+      bottom: 70px;
+}
+
+.PrivacyandSecuritynameCONTENT
+{
+    /*border: 1px solid gold;*/
+    width: 80%;
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+
+.PrivacyandSecurityname
+{
+    font-size: 27px;
+  
+}
+
+.checkPrivacyandSecurity
+{
+    transform: scale(1.3);
+    position:relative;
+    bottom: 25px;
+    left: 15px;
+}
+
+.optionofPrivacy
+{
+    font-weight: bold;
+    position:relative;
+    bottom: 25px;
+    left: 15px;
+}
+
+.meaning
+{
+    display: flex;
+    width: 100%;
+    color: gray;
+    position:relative;
+    bottom: 25px;
+    left: 15px;
+}
+
+
+.learnmorePrivacyandSecurity
+{
+
+    padding: 40px 0px 20px 0px;
+    font-weight: bold;
+    color: rgb(87, 87, 248);
+}
+
+.optionofPhotosofYou2
+{
+    margin-top: 7px;
+}
+
+.meaningofPhotosofYou
+{
+    color: gray;
+}
+
+.LearnmoreaboutPhotosofYou
+{
+    padding: 0px 2px;
+    font-weight: bold;
+    color: rgb(87, 87, 248);
+}
+
+.bottomlineofPrivacyandSecurityCONTENT
+{
+    position: relative;
+    top: 10px;
+}
+
+
+
